@@ -1,0 +1,31 @@
+#visor-do-O{
+    background-color: rgba(0, 0, 255, 0.685);
+}
+#visor-do-x{
+    background-color: rgba(255, 0, 0, 0.685);
+}
+.linha{
+    width: max-content;
+}
+.casa{
+    width: 20vh;
+    height: 20vh;
+    background-color: rgb(245, 245, 220);
+    margin: 4vh;
+    transition: transform 1.3s;
+    text-align: center;
+}
+.imagem{
+    max-width: 20vh;
+    max-height: 15vh;
+}
+.casa:hover{
+    background-color: rgba(245, 245, 220, 0.462);
+    transform: scale(1.3);
+}
+button{
+    background-color: rgb(150, 150, 150);
+}
+button:hover{
+    background-color: rgb(180, 180, 180);
+}
